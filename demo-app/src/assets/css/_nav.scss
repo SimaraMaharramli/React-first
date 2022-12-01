@@ -1,0 +1,27 @@
+.navbarp130 {
+    background-color: blueviolet;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .search-area{
+        margin-right: 10px !important;
+    }
+
+    ul {
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+
+        li {
+            display: inline-block;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+    }
+
+
+
+}
